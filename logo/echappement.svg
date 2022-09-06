@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 603 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(0.75,0,0,0.75,301.4,174.785)">
+        <g id="echappement.afdesign" transform="matrix(1,0,0,1,-401.867,-233.047)">
+            <clipPath id="_clip1">
+                <rect x="0" y="0" width="803.733" height="466.094"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(0.792847,0,0,0.792847,-856.949,-494.055)">
+                    <g transform="matrix(0.68807,0,0,1,598.905,0.000759204)">
+                        <path d="M1920,964.571L1790.72,964.571C1742.87,963.927 1753.07,870.239 1784.13,870.054C1877.94,869.495 1920,870.054 1920,870.054L1920,778.182C1920,704.703 1869.81,639.396 1790.72,639.396C1702.66,639.396 1661.43,704.703 1661.43,778.182L1661.43,1056.44C1661.43,1129.92 1709.56,1193.49 1790.72,1195.23C1876.16,1194.18 1920,1129.92 1920,1056.44L1920,964.571Z" style="fill:none;stroke:black;stroke-width:36.74px;"/>
+                    </g>
+                    <path d="M1831.05,639.396C1831.05,639.396 1435.21,638.294 1336.18,639.396C1275.53,640.07 1208.8,650.286 1207.52,768.065C1206.52,858.98 1205.2,1010.02 1205.84,1080C1206.36,1137.38 1240.24,1196.44 1333.76,1195.23C1427.28,1194.01 1831.05,1195.23 1831.05,1195.23" style="fill:none;stroke:black;stroke-width:31.53px;"/>
+                    <path d="M1205.67,870.054L1133.47,870.054C1084.13,870.054 1083.8,965.01 1135.69,964.571C1187.58,964.131 1205.67,964.571 1205.67,964.571" style="fill:none;stroke:black;stroke-width:31.53px;"/>
+                    <g transform="matrix(1,0,0,1,55,0)">
+                        <path d="M1865,870.054L1999.39,870.054C2031.66,870.054 2032.1,964.572 1999.83,964.572L1865,964.572" style="fill:none;stroke:black;stroke-width:31.53px;"/>
+                    </g>
+                    <g transform="matrix(0.715617,0,0,1,623.717,0)">
+                        <path d="M1999.39,870.054C1953.08,870.054 1956.12,964.572 1999.83,964.572" style="fill:none;stroke:black;stroke-width:36.26px;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="echappement.afdesign1" serif:id="echappement.afdesign">
+        </g>
+    </g>
+</svg>

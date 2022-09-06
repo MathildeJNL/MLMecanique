@@ -1,0 +1,269 @@
+/*POLICE GENERALE*/
+body{
+    font-family: 'montserrat', sans-serif ;
+    width: 100%;
+    margin: 0;
+}
+
+/*-----EN TETE-----*/
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-mecanique{
+    height: 70px;
+    margin: 15px;
+}
+
+#liens-contact a{
+    text-decoration: none;
+    color: black;
+}
+
+#liens-contact a:hover{
+    color : #FF7F00;
+}
+
+#liens-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px;
+    font-size: 20px;
+}
+
+/*-----SECTION BLOC1-----*/
+#container{
+    width: 100%;
+    background-image: url("img/fond.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#container a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+#frosted-box{
+    width: 70%;
+    position: relative;
+    background: inherit;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+#frosted-box::before{
+    content: "";
+    position: absolute;
+    background: inherit;
+    inset: -20px;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.paragraphe {
+    text-align: center;
+    font-size: 60px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+/*-----BLOC2-----*/
+.description{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#text-content{
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/*-----BLOC3-----*/
+#prestations-section{
+    background-color: #DDDDDD;
+    padding: 40px;
+}
+
+#container-presta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#container-presta p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+
+.logo-presta{
+    height: 85px;
+    align-items: center;
+}
+
+.photo-entretien{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 15px;
+}
+/* 
+#fond-atelier{
+    width: 100%;
+} */
+
+#liste ul{
+    background-color: #EEEEEE;
+}
+
+/*-----BLOC4-----*/
+footer{
+    background-color: #272626;
+    color: white;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+footer h2{
+    text-align: center;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 12px;
+    padding: 0;
+}
+
+.icones-filter{
+    padding-right: 10px;
+}
+
+.img-footer{
+    display: flex;
+    justify-content: center;
+    background-color: #272626;
+    color: white;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+#logo-footer{
+    width: 10%;
+}
+
+@media all and (min-width: 769px) and (max-width: 1025px){
+    .frosted-box{
+        width: 90%;
+    }
+
+    .logo-presta{
+        height: 70px;
+    }
+
+    #container-presta p{
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 768px){
+/*-----EN TETE-----*/
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #logo-mecanique{
+        height: 40px;
+        margin: 5px;
+    }
+
+    #liens-contact{
+        font-size: 16px;
+    }
+
+/*-----BLOC1-----*/
+    .paragraphe{
+        font-size: 30px;
+    }
+
+    #container{
+        background-attachment: initial;
+    }
+
+/*-----BLOC2-----*/
+
+    .logo-presta{
+        height: 50px;
+    }
+
+    #text-content{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #container-presta{
+        flex-direction: column;
+    }
+
+    #container-presta p{
+        font-size: 16px;
+    }
+
+/*-----FOOTER-----*/
+
+    footer{
+        padding-bottom: 5px;
+    }
+
+    .img-footer{
+        padding-bottom: 5px;
+    }
+
+    #logo-footer{
+        width: 25%;
+    }
+}
